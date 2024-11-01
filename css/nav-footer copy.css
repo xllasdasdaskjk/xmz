@@ -1,0 +1,99 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+  border-color: #e7e7e7;
+  overflow: hidden;
+  z-index: 999 !important;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+nav ul .logo {
+  padding: 0;
+  position: absolute;
+  left: 50%;
+}
+nav ul .logo img {
+  width: 50px;
+  height: 50px;
+}
+nav ul li {
+  width: auto;
+  height: 50px;
+  list-style: none;
+}
+nav ul li a {
+  font-size: 16px;
+  display: block;
+  padding: 15px 0;
+  font-family: myFirstFont_x !important;
+  color: #666;
+}
+nav ul li a:hover{
+  text-decoration: none;
+}
+/* 屏幕大于1280 container的宽度就1280*/
+/* 媒体结束 */
+/* 中等屏幕样式开始 */
+/* 中等屏幕样式结束 */
+/* 平板样式开始 */
+@media screen and (max-width: 991px) {
+  nav {
+    height: 50px;
+    z-index: 9999;
+  }
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  nav ul button {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  nav ul button .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #888;
+    margin: 0 auto;
+  }
+  nav ul button .icon-bar + .icon-bar {
+    margin-top: 4px;
+  }
+  nav ul li {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+  }
+  nav ul li a {
+    font-size: 16px;
+    padding: 15px 0;
+  }
+  nav ul li li:nth-of-type(1) {
+    padding: 0;
+  }
+  nav ul li li:nth-of-type(1) img {
+    width: 50px;
+    height: 50px;
+  }
+  nav ul .actie {
+    background-color: #e7e7e7;
+  }
+  .gao {
+    height: auto;
+  }
+}
+/* 平板样式结束 */
+/* 手机样式开始 */
+/* 手机样式结束 */

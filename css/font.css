@@ -1,0 +1,15 @@
+@font-face
+{
+    font-family: myFirstFont_b;
+    src: url(../lib/font/msyh.ttc);
+}
+@font-face
+{
+    font-family: myFirstFont_bd;
+    src: url(../lib/font/msyhbd.ttc);
+}
+@font-face
+{
+    font-family: myFirstFont_x;
+    src: url(../lib/font/msyhl.ttc);
+}

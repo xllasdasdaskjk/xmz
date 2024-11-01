@@ -1,0 +1,17 @@
+/* 页脚样式开始 */
+footer {
+  width: 100%;
+  background-color: #333534;
+  text-align: center;
+  margin-top: 5%;
+}
+footer p{
+  padding: 0;
+  margin: 0;
+  font-family: myFirstFont_x;
+  font-size: 12px;
+  color: white;
+}
+footer p:nth-child(2){
+border-bottom: 1px solid white;
+}

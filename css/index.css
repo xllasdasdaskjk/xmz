@@ -1,0 +1,128 @@
+
+img{
+    width: 100%;
+}
+body{
+    margin-top: 3%;
+}
+
+
+.country_one{
+    width: 100%;
+    margin-top: 8%;
+    padding: 0px;
+    z-index: 12;
+    border: 155px solid;
+    border-image-source: url(../images/0afa4ec20ffd7c595c15f68b2428a9d4.png);
+    border-image-slice: 20%;
+    z-index: 999 !important;
+    border-image-repeat:stretch;
+}
+
+.country_one .hong_se_ji_yin p{
+    text-align: center;
+    font-size: 30px;
+    font-family:myFirstFont_b;
+    padding: 0;
+}
+
+.country_one .hong_se_ji_yin_jieshuo p{
+    text-indent: 2em;
+    font-size: 20px;
+    font-family:myFirstFont_x;
+    padding: 0;
+}
+
+.slide{
+    border: 1px solid red;
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+	/* body{
+    background-color: blue;
+    } */
+    
+	
+  }
+
+ 
+
+
+
+@media screen and (max-width: 960px) {
+	body{
+        margin-top: 7%;
+      }
+    
+  
+    .country_one{
+        width: 100%;
+        margin-top: 10%;
+        padding: 0px;
+        z-index: 12;
+        border: 90px solid;
+        border-image-source: url(../images/0afa4ec20ffd7c595c15f68b2428a9d4.png);
+        border-image-slice: 15%;
+        z-index: 999 !important;
+        border-image-repeat:stretch;
+    }
+    
+    .country_one .hong_se_ji_yin p{
+        font-size: 30px;
+    }
+    
+    .country_one .hong_se_ji_yin_jieshuo p{
+        font-size: 20px;
+    
+  }
+}
+
+  
+
+ @media screen and (max-width: 720px) {
+    body{
+        margin-top: 8%;
+      }
+    
+   }
+
+   
+   
+   @media screen and (max-width: 540px) {
+    body{
+   	  margin-top: 12%;
+   	}
+       .country_one{
+        width: 100%;
+        margin-top: 10%;
+        padding: 0px;
+        z-index: 12;
+        border: 50px solid;
+        border-image-source: url(../images/0afa4ec20ffd7c595c15f68b2428a9d4.png);
+        border-image-slice: 11%;
+        z-index: 999 !important;
+        border-image-repeat:stretch;
+    }
+    
+    .country_one .hong_se_ji_yin p{
+        font-size: 25px;
+    }
+    
+    .country_one .hong_se_ji_yin_jieshuo p{
+        font-size: 17px;
+    
+  }
+     
+     }
+
+     @media screen and (max-width: 340px) {
+        body{
+             margin-top: 15%;
+           }
+          
+         
+         }

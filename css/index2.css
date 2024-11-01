@@ -1,0 +1,279 @@
+/* 主体内容 */
+main {
+  margin-top: 130px;
+  /* 总结样式 */
+}
+main .time1 {
+  border: 40px solid #ccc;
+  margin-bottom: 80px;
+  border-image-source: url("../images/bk5.png");
+  border-image-slice: 90;
+}
+main .time1 h1 {
+  border-radius: 25px;
+  background-color: #ae2012;
+  font-size: 35px;
+  padding: 10px 20px;
+  color: #e9d8a6;
+  display: block;
+  margin: 30px auto;
+  width: 250px;
+  border: 5px solid yellow;
+  transform: translateY(-400%);
+}
+main .time1 h1 img {
+  width: 40px;
+}
+main .time1 .fgx {
+  width: 700px;
+  transform: translateX(-300%);
+}
+main .time1 p {
+  font-size: 22px;
+  text-indent: 50px;
+  /* 首行缩进50px */
+  line-height: 2.5;
+  padding: 20px 50px;
+  transform: translateY(400%);
+}
+main .time2 {
+  margin-bottom: 50px;
+}
+main .time2 h1 {
+  border-radius: 25px;
+  font-size: 35px;
+  padding: 10px 20px;
+  color: #f34718;
+  display: block;
+  margin: 30px auto;
+  width: 350px;
+  border: 50px solid yellow;
+  border-image-source: url("../images/bk3.png");
+  border-image-slice: 40;
+  opacity: 0;
+}
+main .time2 .h1move {
+  opacity: 1;
+  transition: 1s;
+}
+main .time3 {
+  border: 40px solid;
+  border-image-source: url("../images/bk4.png");
+  border-image-slice: 90;
+}
+main .time3 li {
+  opacity: 0;
+}
+main .time3 li:nth-child(2) {
+  transition-delay: 0.2s;
+}
+main .time3 li:nth-child(3) {
+  transition-delay: 0.4s;
+}
+main .time3 li h2 {
+  margin: 20px 0;
+}
+main .time3 li p {
+  font-size: 22px;
+  text-indent: 50px;
+  line-height: 2.2;
+  padding: 20px 20px;
+}
+main .time3 .l1 {
+  opacity: 1;
+  transition: all 1s ease;
+}
+main .time3 .time3_1 {
+  width: 300px;
+  margin-top: -40px;
+}
+main .time3 .time3_2 img,
+main .time3 .time3_3 img {
+  padding: 20px 20px;
+  width: 100%;
+  height: 380px;
+  margin-top: 30px;
+  transition: 0.8s;
+}
+main .time3 .time3_2 img:hover,
+main .time3 .time3_3 img:hover {
+  padding: 0;
+}
+main .time4 {
+  border: 40px solid;
+  border-image-source: url("../images/bk4_1.png");
+  border-image-slice: 90;
+}
+main .time4 .l1 {
+  opacity: 1;
+  transition: all 2s ease;
+}
+main .time4 li {
+  opacity: 0;
+}
+main .time4 li:nth-child(2) {
+  transition-delay: 0.2s;
+}
+main .time4 li:nth-child(3) {
+  transition-delay: 0.4s;
+}
+main .time4 li h2 {
+  margin: 20px 0;
+}
+main .time4 li p {
+  font-size: 22px;
+  text-indent: 50px;
+  line-height: 2.2;
+  padding: 20px 20px;
+}
+main .time4 .time3_1 {
+  width: 300px;
+  margin-top: -40px;
+}
+main .time4 .time3_2 img,
+main .time4 .time3_3 img {
+  padding: 20px 20px;
+  width: 100%;
+  height: 380px;
+  margin-top: 30px;
+  transition: 0.8s;
+}
+main .time4 .time3_2 img:hover,
+main .time4 .time3_3 img:hover {
+  padding: 0;
+}
+main .time5 {
+  border: 40px solid;
+  border-image-source: url("../images/bk4.png");
+  border-image-slice: 90;
+}
+main .time5 .l1 {
+  opacity: 1;
+  transition: all 2s ease;
+}
+main .time5 li {
+  opacity: 0;
+}
+main .time5 li:nth-child(2) {
+  transition-delay: 0.2s;
+}
+main .time5 li:nth-child(3) {
+  transition-delay: 0.4s;
+}
+main .time5 li h2 {
+  margin: 20px 0;
+}
+main .time5 li p {
+  font-size: 22px;
+  text-indent: 50px;
+  line-height: 2.2;
+  padding: 20px 20px;
+}
+main .time5 .time3_1 {
+  width: 300px;
+  margin-top: -40px;
+}
+main .time5 .time3_2 img,
+main .time5 .time3_3 img {
+  padding: 20px 20px;
+  width: 100%;
+  height: 380px;
+  margin-top: 30px;
+  transition: 0.8s;
+}
+main .time5 .time3_2 img:hover,
+main .time5 .time3_3 img:hover {
+  padding: 0;
+}
+main .time {
+  margin-bottom: 200px;
+}
+main .time h2 {
+  color: #f34718;
+}
+main .time li {
+  margin-top: 30px;
+  padding: 0;
+}
+main .zj {
+  margin: 100px 0;
+  opacity: 0;
+}
+main .zj h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #f34718;
+}
+main .zj div {
+  border: 50px solid;
+  border-image-source: url("../images/bk5_1.png");
+  border-image-slice: 60;
+}
+main .zj p {
+  font-size: 20px;
+  line-height: 1.8;
+  text-indent: 50px;
+}
+/* 主体内容 */
+/* 屏幕大于1280 container的宽度就1280*/
+/* 媒体结束 */
+/* 中等屏幕样式开始 */
+/* 中等屏幕样式结束 */
+/* 平板样式开始 */
+@media screen and (max-width: 991px) {
+  main .time1 .fgx {
+    width: 600px;
+  }
+}
+/* 平板样式结束 */
+/* 手机样式开始 */
+@media screen and (max-width: 767px) {
+  main .time li {
+    margin-top: 0;
+  }
+  main .time li p {
+    line-height: 1.8;
+    padding: 0;
+    font-size: 20px;
+  }
+  main .time1 {
+    padding: 0;
+  }
+  main .time1 h1 {
+    width: 210px;
+    font-size: 28px;
+  }
+  main .time1 h1 img {
+    width: 28px;
+  }
+  main .time1 .fgx {
+    width: 300px;
+  }
+  main .time1 p {
+    font-size: 20px;
+    padding: 0;
+    line-height: 1.5;
+  }
+  main .time2 h1 {
+    padding: 0;
+    font-size: 28px;
+    width: 210px;
+    border: 30px solid yellow;
+    border-image-source: url(../images/bk3.png);
+    border-image-slice: 40;
+  }
+  main .zj h1 {
+    font-size: 20px;
+  }
+  main .zj p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  main .zj div {
+    padding: 0;
+    border: 40px solid;
+    border-image-source: url(../images/bk5_1.png);
+    border-image-slice: 60;
+  }
+}
+/* 手机样式结束 */

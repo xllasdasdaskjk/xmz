@@ -1,0 +1,166 @@
+.box {
+  margin-top: 180px;
+  padding: 0;
+}
+.box .case {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0px 0px;
+}
+.box .case .biaoti h1 {
+  background-color: #ae2012;
+  font-size: 35px;
+  padding: 10px 20px;
+  color: #e9d8a6;
+  display: block;
+  margin: 30px auto;
+  width: 250px;
+  border: 5px solid yellow;
+  border-radius: 25px;
+}
+.box .case .biaoti h1 img {
+  width: 40px;
+  margin-top: -8px;
+}
+.box .case .neirong {
+  border: 40px solid #ccc;
+  border-image-source: url("../images/bk7.png");
+  border-image-slice: 40;
+}
+.box .case .neirong #swiper1 {
+  width: 100%;
+  height: 300px;
+}
+.box .case .neirong #swiper1 .swiper-wrapper .swiper-slide {
+  padding: 20px 0;
+  width: 100%;
+  height: 300px;
+  border-radius: 25px;
+}
+.box .case .neirong #swiper1 .swiper-wrapper .swiper-slide img {
+  height: 100%;
+}
+.box .case .neirong #swiper2 {
+  width: 100%;
+  height: 300px;
+  border-top: 3px solid #ccc;
+  transition: 0.8s;
+}
+.box .case .neirong #swiper2 .case .case_wenzi {
+  margin: 0;
+  height: 100%;
+}
+.box .case .neirong #swiper2 .case .case_wenzi h1 {
+  font-weight: 900;
+}
+.box .case .neirong #swiper2 .case .case_wenzi h3 {
+  font-weight: 900;
+}
+.box .case .neirong #swiper2 .case .case_wenzi p {
+  text-indent: 50px;
+  font-size: 20px;
+  line-height: 1.9;
+}
+.box .case .neirong #swiper2 .case .case_wenzi div {
+  height: 100%;
+}
+.box .case .neirong #swiper2:hover {
+  background: #ccc;
+}
+.box .fgx {
+  margin-top: 180px;
+  margin-bottom: 20px;
+  opacity: 0;
+}
+.box .jj {
+  margin-top: 150px;
+  opacity: 0;
+}
+.box .jj div h1 {
+  background-color: #ae2012;
+  font-size: 35px;
+  color: #e9d8a6;
+  margin-top: 70px;
+  border: 5px solid yellow;
+  border-radius: 25px;
+  padding: 30px 0;
+}
+.box .jj div h1 img {
+  width: 40px;
+  margin-bottom: 10px;
+}
+.box .jj .jj_p p {
+  font-size: 22px;
+  text-indent: 50px;
+  /* 首行缩进50px */
+  line-height: 1.8;
+  border: 40px solid #ccc;
+  border-image-source: url("../images/bk7_1.png");
+  border-image-slice: 40;
+}
+.box .jj :nth-child(2) {
+  margin-bottom: 100px;
+}
+/* 屏幕大于1280 container的宽度就1280*/
+/* 媒体结束 */
+/* 中等屏幕样式开始 */
+/* 中等屏幕样式结束 */
+/* 平板样式开始 */
+@media screen and (max-width: 991px) {
+  .box .case .neirong #swiper1 .swiper-wrapper .swiper-slide {
+    width: 100%;
+    height: 300px;
+    border-radius: 25px;
+  }
+  .box .case .neirong #swiper2 .case .case_wenzi {
+    overflow: scroll;
+  }
+  .box .case .neirong #swiper2 .case .case_wenzi div {
+    height: auto;
+  }
+  .box .fgx img {
+    width: 600px;
+  }
+  .box .jj {
+    margin-top: 0;
+    margin-bottom: 100px;
+  }
+  .box .jj div h1 {
+    width: 260px;
+    margin: 0 auto;
+    padding: 20px 0;
+    margin-bottom: 50px;
+  }
+  .box .jj div h1 img {
+    margin-top: -8px;
+  }
+}
+/* 平板样式结束 */
+/* 手机样式开始 */
+@media screen and (max-width: 767px) {
+  .box .case .biaoti h1 {
+    font-size: 30px;
+  }
+  .box .case .biaoti h1 img {
+    width: 30px;
+    margin-top: -5px;
+  }
+  .box .case .neirong #swiper2 .case .case_wenzi h1 {
+    text-align: center;
+  }
+  .box .case .neirong #swiper2 .case .case_wenzi h3 {
+    font-size: 18px;
+  }
+  .box .fgx img {
+    width: 320px;
+  }
+  .box .jj div h1 {
+    font-size: 30px;
+    padding: 10px 0;
+  }
+  .box .jj div h1 img {
+    width: 30px;
+    margin-top: -5px;
+  }
+}
+/* 手机样式结束 */

@@ -1,0 +1,318 @@
+/* 首图 */
+.party{
+    width: 100%;
+	padding: 0;
+	position: relative;
+}
+.party img{
+    width: 100%;
+}
+
+body{
+	margin-top: 3%;
+}
+
+.gongheg{
+    width: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+}
+.gong_hg{
+    width: 100%;
+          margin: 0;
+  }
+  .gong_hg .gong_hg_a{
+    font-size: 30px;
+    color: black;
+    font-family: myFirstFont_b;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .gongheg .gong_he_guo_p{
+      text-indent: 2em;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+	font-family: myFirstFont_b;
+}
+
+
+
+
+body{
+	height: 100%;
+	overflow-x: hidden;
+}
+/* 时间轴 */
+.history {
+	width:100%;
+	margin-top: 10%;
+}
+.start_history {
+	width:100%;
+	text-align:center;
+}
+.cc_history {
+	color:#2b2b2b;
+	font-size:30px;
+	display:block;
+
+	text-align: center;
+	font-family:myFirstFont_b;
+}
+
+
+.history_img img{
+	width: 70%;
+	height: 100%;
+}
+
+.history_gg_img img{
+	width: 50%;
+	
+}
+
+.nianyue .nianyue_1:nth-child(2),.nianyue_r .nianyue_r_2:nth-child(2){
+	color: black;
+padding: 0;
+	font-size: 1.5em;
+	font-family: myFirstFont_x;
+	
+}
+
+.nianyue .nianyue_1:nth-child(2),.nianyue_r .nianyue_r_2:nth-child(2){
+
+	text-align: center;
+	font-family: myFirstFont_b;
+	
+}
+
+/* 年月左*/
+
+
+.nianyue .col:nth-child(1) p{
+	display: block;
+
+	padding: 0px 15px;
+	margin: 0;
+}
+
+
+/* 年月右 */
+
+.nianyue_r .col:nth-child(1) p{
+	display: block;
+	color: black;
+	padding: 0px 0px;
+	margin: 0;
+
+}
+
+
+/* 图片缩放 */
+.top_jl {
+	margin-top:15%;
+}
+.history_r_1 {
+	margin-top:15%;
+}
+.top_jl div p,.history_r_1 div p{
+	display: none;
+	transition: all 1s;
+}
+
+
+.top_jl div p,.history_r_1 div p{
+	color: black;
+}
+.top_jl div:hover p,.history_r_1 div:hover p{
+	display: block;
+}
+.top_jl div:hover,.history_r_1 div:hover{
+	transition: all 1s;
+	transform: scale(1.1);
+	z-index: 999;
+}
+.top_jl div,.history_r_1 div{
+	transition: all 1s ease-in;
+}
+.history_left {
+	width: 100%;
+	margin-top: 10%;
+	
+}
+
+.history_right {
+	width: 100%;
+/* margin: 10% 0% 0% 0%; */
+margin-top: 8%;
+}
+.history_R {
+	width:100%;
+
+}
+.history_L {
+	width:100%;
+	
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+	/* body {
+	  background-color: blue;
+	} */
+.history_right {
+    margin-top: 15%;
+}
+	.top_jl,.history_r_1 {
+		margin-top:20%;
+	}
+	.nianyue .nianyue_1:nth-child(2),.nianyue_r .nianyue_r_2:nth-child(2){
+		font-size: 22px;
+	}
+	
+	.nianyue .nianyue_1:nth-child(1),.nianyue_r .nianyue_r_2:nth-child(1){
+		font-size: 12px;
+	}
+	.gongheg{
+		width: 58%;
+		position: absolute;
+		top: 25%;
+		left: 21%;
+		transform: translate(-50%,-50%);
+	}
+	
+	  .gongheg .gong_he_guo_p{
+		
+		font-size: 16px;
+	}
+	
+	
+  }
+
+
+
+
+
+ 
+
+
+
+
+
+
+@media screen and (max-width: 960px) {
+	/* body {
+		background-color: rgb(0, 255, 136);
+	  } */
+	  .top_jl,.history_r_1 {
+		margin-top:20%;
+	}
+	.history_img img{
+		width: 100%;
+	}
+	.nianyue .nianyue_1:nth-child(2),.nianyue_r .nianyue_r_2:nth-child(2){
+		font-size: 15px;
+	}
+	.nianyue .nianyue_1:nth-child(1),.nianyue_r .nianyue_r_2:nth-child(1){
+		font-size: 11px;
+	}
+	.cc_history {
+		font-size:25px;
+		
+	}
+
+	.gongheg{
+		width: 70%;
+		position: absolute;
+		top: 25%;
+		left: 17%;
+		transform: translate(-50%,-50%);
+	}
+	
+	  .gongheg .gong_he_guo_p{
+		
+		font-size: 16px;
+	}
+	.history_img img{
+		width: 100%;
+	}
+  }
+  
+ @media screen and (max-width: 767px) {
+	.top_jl,.history_r_1 {
+		margin-top:10%;
+	}
+	.start_history{
+		margin: -100px 0 0 0;
+		padding: 0;
+	}
+	.history_right {
+		margin-top: 0%;
+	}
+	.gongheg{
+		width: 80%;
+		position: absolute;
+		top: 25%;
+		left: 13%;
+		transform: translate(-50%,-50%);
+	}
+	.gongheg .gong_he_guo_p{
+		
+		font-size: 14px;
+	}
+	.gong_hg .gong_hg_a{
+		font-size: 20px;
+	}
+   }
+   
+   @media screen and (max-width: 540px) {
+   	/* body {
+   	  background-color: yellow;
+   	} */
+
+	   .top_jl,.history_r_1 {
+		margin-top:20%;
+	}
+	   .nianyue .nianyue_1:nth-child(2),.nianyue_r .nianyue_r_2:nth-child(2){
+		font-size: 13px;
+	}
+	.nianyue .col:nth-child(1) p{
+		
+		padding: 0px;
+		margin: 0;
+	}
+	.nianyue_r .col:nth-child(1) p{
+		padding: 0px;
+		margin: 0;
+	}
+	.cc_history {
+		font-size:20px;
+		
+	}
+	.start_history{
+		margin: -50px 0 0 0;
+		padding: 0;
+	}
+	.gongheg{
+		width: 98%;
+		position: absolute;
+		top: 25%;
+		left: 1%;
+		transform: translate(-50%,-50%);
+	}
+	.gongheg .gong_he_guo_p p{
+		margin: 0;
+		font-size: 10px !important;
+	}
+	.gong_hg .gong_hg_a{
+		font-size: 12px;
+	}
+     }

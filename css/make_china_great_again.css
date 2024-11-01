@@ -1,0 +1,143 @@
+
+body{
+    height: 100%;
+    overflow-x: hidden;
+margin-top: 3%;
+}
+a:hover{
+  text-decoration: none;
+}
+img{
+    width: 100%;
+}
+.global_picture{
+  position: relative;
+}
+.global_picture img{
+    padding: 0;
+    width: 100%;
+}
+.tdwz{
+  position: absolute;
+  top: 25%;
+  left: 43%;
+  transform: translate(-50%,-50%);
+}
+.tdwz img{
+  width: 25%;
+}
+.medal{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.medal .medal_div .medal_poto{
+    position: relative;
+    /* border: 1px solid gray; */
+}
+.medal .medal_div .medal_poto p{
+    padding: 0px 5%;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    font-family: myFirstFont_x;
+}
+.medal .medal_div .medal_poto_2{
+    margin-top: 3%;
+    font-family: myFirstFont_x;
+}
+.medal .medal_div .medal_poto_2 p{
+  width: 100%;
+  background: white;
+  padding: 6% 15px;
+}
+
+.medal .medal_div .medal_poto .medal_p_p{
+  bottom: 12%;
+
+}
+
+.medal_div_wz{
+  text-align: center;
+  font-size: 30px;
+  margin: 5% 0px;
+}
+.medal_div_wz a{
+  font-family: myFirstFont_b;
+  color: black !important;
+}
+
+
+
+
+main{
+  column-count: 3;
+  column-gap: 0;
+}
+.item{
+  margin: 2px;
+  position: relative;
+  counter-increment: bianhao;
+}
+.item img{
+  width: 100%;       
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+	/* body{
+    background-color: blue;
+    } */
+    .medal .medal_div .medal_poto p{
+      font-size: 16px;
+    }
+    .medal .medal_div .medal_poto .medal_p_p{
+      bottom: 15%;
+    }
+    .medal .medal_div .medal_poto_2 p{
+      font-size: 15px;
+    }
+	
+  }
+
+
+
+
+
+
+@media screen and (max-width: 960px) {
+	/* body {
+	  background-color: rgb(121, 46, 16);
+	} */
+  .medal .medal_div .medal_poto .medal_p_p{
+    bottom: 25%;
+  }
+    
+  }
+
+  
+
+ @media screen and (max-width: 720px) {
+    /* body{
+        background-color: rgb(139, 19, 85);
+    } */
+    .medal .medal_div .medal_poto .medal_p_p{
+      bottom: 30%;
+    }
+   }
+
+   
+   
+   @media screen and (max-width: 540px) {
+    /* body{
+   	  background-color: yellow;
+   	} */
+     .medal .medal_div .medal_poto .medal_p_p{
+      bottom: 0%;
+    }
+     }
+
